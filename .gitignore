@@ -1,0 +1,75 @@
+# Dependencias
+node_modules/
+
+# Archivos de log
+logs
+*.log
+npm-debug.log*
+
+# Directorio de salida de tiempo de ejecución
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directorio para librerías generadas
+lib-cov
+
+# Directorio de cobertura
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Directorio de compilación de Bower (https://bower.io/)
+bower_components
+
+# Directorio de configuración de node-waf
+.lock-wscript
+
+# Directorio de compilación (TypeScript / ts-node)
+dist/
+
+# Directorio de caché de TypeScript
+*.tsbuildinfo
+
+# Directorio opcional de caché npm
+.npm
+
+# Directorio opcional de caché eslint
+.eslintcache
+
+# Directorio opcional REPL
+.node_repl_history
+
+# Archivos de salida
+*.out
+
+# Directorios y archivos de Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Archivos de entorno
+.env
+.env.test
+.env*.local
+
+# Archivos de VS Code (opcional, depende de tus preferencias)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Otros archivos y directorios comunes para ignorar
+.DS_Store
+Thumbs.db
